@@ -664,5 +664,14 @@ plot_ICE <- ggplot() +
 
 last_plot()
 
+# Comparing the estimates against the deterministic base case
+out_deterministic[c('incQALYs', 'incCosts', 'ICER')]
+
+c(
+  incQALYs = mean(df_out$incQALYs),
+  incCosts = mean(df_out$incCosts),
+  ICER = mean(df_out$incCosts) / mean(df_out$incQALYs)
+)
+
 
 
