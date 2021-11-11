@@ -657,6 +657,8 @@ df_out <- as.data.frame(out_probabilistic)
 
 # Generate the incremental cost-effectiveness plot with the mean outcomes, as well as a 95%
 # confidence ellipse
+# - note that a version of this plot based on the saved results of 500 runs of 50,000
+#   individuals is saved in the repository as "figure_ICEplane.pdf"
 plot_ICE <- ggplot() + 
   geom_point(data = df_out, mapping = aes(x = incQALYs, y = incCosts)) + 
   geom_point(mapping = aes(x = mean(df_out$incQALYs), y = mean(df_out$incCosts)), shape = 16, size = 3, color = 'red') +

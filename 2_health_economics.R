@@ -570,6 +570,8 @@ NHB <- sapply(seq(from = 1000, to = min(nrow(df_0), nrow(df_1)), by = 1000), fun
   
 # Based on the plot, 50k individuals per strategy per run seem sufficient because that is
 # where the curve stabilizes
+# - note that the stability plot with up to 200,000 simulated individuals has been saved in
+#   the repository as "figure_outcomes_stability.pdf"
 plot(x = NHB['n', ], y = NHB['NHB', ], type = 'l', las = 1, 
      xlab = 'Number of Individuals', ylab = 'NHB (at 20k per QALY)')
 
