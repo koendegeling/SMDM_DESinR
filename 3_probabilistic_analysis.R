@@ -49,7 +49,7 @@
 # This section sets up the analysis by installing and loading the required packages.
 
 # Uncomment to clear the Global Environment and Console 
-rm(list = ls()); cat("\14");
+#rm(list = ls()); cat("\14");
 
 # Uncomment to install the used packages
 #install.packages(pkgs = c("simmer", "flexsurv", "data.table", "MASS"))
@@ -534,7 +534,7 @@ out_deterministic[c('incQALYs', 'incCosts', 'ICER')]
 # parameter values to ensure different values are sampled in each run. On the other hand, the
 # same random number seed is used to run the simulation model in each run. This is done 
 # deliberately to reduce unwarranted variation between runs, as the objective is to 
-# quantify the impact that the canges in parameter values have on the outcomes, i.e. the
+# quantify the impact that the changes in parameter values have on the outcomes, i.e. the
 # parameter uncertainty, not the stochastic uncertainty (which should be simulated out).
 
 # Illustration with a low number of individuals for a low number of runs.
