@@ -1,6 +1,6 @@
 # SMDM Discrete Event Simulation Short Course
 
-This is the repository for the short course on "Discrete Event Simulation in R to support healthcare decision making" by Hendrik Koffijberg (University of Twente, the Netherlands), Michiel van de Ven (OPEN health, the Netherlands), and Koen Degeling (The University of Melbourne, Australia) for the Society for Medical Decision Making.
+This is the repository for the short course on "Discrete Event Simulation in R to support healthcare decision making" by Hendrik Koffijberg (University of Twente, the Netherlands), Michiel van de Ven (OPEN health, the Netherlands), and Koen Degeling (Lumen Value & Access, United States) for the Society for Medical Decision Making.
 
 The repository contains three important files that are used in demonstrating on how a discrete event simulation can be implemented and analyzed for the case study:
 
